@@ -4,8 +4,8 @@ import pandas as pd
 import streamlit as st 
 from PIL import Image
 
-preprocessor = pickle.load(open("artifacts\proprocessor.pkl","rb"))
-classifier=pickle.load(open("artifacts\model.pkl","rb"))
+preprocessor = pickle.load(open("artifacts/proprocessor.pkl","rb"))
+classifier=pickle.load(open("artifacts/model.pkl","rb"))
 
 def welcome():
     return "Welcome All"
